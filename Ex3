@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 3 - Favorite Websites</title>
+</head>
+<body>
+  <h1>Danh sách Website Yêu Thích</h1>
+  <ul>
+    <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a> - Tài liệu học HTML/CSS</li>
+    <li><a href="https://github.com" target="_blank">GitHub</a> - Nơi lưu trữ source code</li>
+    <li><a href="https://w3schools.com" target="_blank">W3Schools</a> - Trang thực hành web cơ bản</li>
+    <li><a href="https://google.com" target="_blank">Google</a> - Công cụ tìm kiếm</li>
+  </ul>
+  <hr>
+  <p><a href="index.html">Quay lại Trang Chủ (index.html)</a></p>
+</body>
+</html>

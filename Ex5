@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 5 - Image + Text Demonstration</title>
+</head>
+<body>
+
+  <h1>Minh Họa Tổ Chức Media Và Văn Bản Trong HTML</h1>
+
+  <!-- Dùng section để nhóm toàn bộ khu vực nội dung minh họa -->
+  <section>
+
+    <!-- Khối bài viết 1 -->
+    <article>
+      <h2>1. Công Nghệ HTML5</h2>
+      
+      <!-- Khối figure chứa hình ảnh và chú thích -->
+      <figure>
+        <img src="html5.png" alt="Logo chính thức của chuẩn HTML5" width="150">
+        <figcaption>Hình 1: Logo nhận diện chuẩn HTML5 do W3C phát hành.</figcaption>
+      </figure>
+
+      <p>
+        HTML5 là ngôn ngữ đánh dấu siêu văn bản cốt lõi được sử dụng để xây dựng và tổ chức cấu trúc logic cho các trang web hiện đại. Nó cung cấp các thẻ semantic giúp máy tính và công cụ tìm kiếm hiểu rõ nội dung.
+      </p>
+    </article>
+
+    <hr>
+
+    <!-- Khối bài viết 2 -->
+    <article>
+      <h2>2. Ngôn Ngữ Trang Trí CSS3</h2>
+      
+      <!-- Khối figure thứ hai -->
+      <figure>
+        <img src="css3.png" alt="Logo chính thức của CSS3" width="150">
+        <figcaption>Hình 2: Logo mô tả ngôn ngữ định dạng kiểu dáng CSS3.</figcaption>
+      </figure>
+
+      <p>
+        CSS3 đóng vai trò trình bày giao diện, màu sắc, phông chữ và bố cục cho tài liệu HTML. Dù chưa được sử dụng trong bài Lab01, CSS3 là thành phần không thể thiếu để tạo nên một trang web hoàn chỉnh.
+      </p>
+    </article>
+
+  </section>
+
+  <hr>
+  <p><a href="index.html">← Quay lại Trang Chủ (index.html)</a></p>
+
+</body>
+</html>

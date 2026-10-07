@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 6 - Chủ đề Công nghệ</title>
+</head>
+<body>
+  <h1>Khám Phá Thế Giới Công Nghệ</h1>
+  <p>Công nghệ thông tin đang thay đổi thế giới với tốc độ <strong>chóng mặt</strong> mỗi ngày.</p>
+  
+  <figure>
+    <img src="images.jpg" alt="Ảnh chủ đề công nghệ" width="500">
+    <figcaption>Hình ảnh mô phỏng công nghệ tương lai</figcaption>
+  </figure>
+
+  <h2>Tầm quan trọng của Lập trình Web</h2>
+  <p>Lập trình web là <em>kỹ năng cốt lõi</em> giúp kết nối hàng tỷ người dùng trên toàn cầu.</p>
+</body>
+</html>

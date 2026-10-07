@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 4 - Bài thơ / Bài viết có ảnh</title>
+</head>
+<body>
+  <h1>Bài thơ: Sóng (Xuân Quỳnh)</h1>
+  
+  <figure>
+  <img src="song.jpg" alt="Hình ảnh minh họa sóng biển" width="400">
+  <figcaption>Hình ảnh minh họa sóng biển rì rào.</figcaption>
+  </figure>
+
+  <p>
+    Dữ dội và dịu êm<br>
+    Ồn ào và lặng lẽ<br>
+    Sông không hiểu nổi mình<br>
+    Sóng tìm ra tận bể.
+  </p>
+  <p>
+    Ôi sóng ngày xưa<br>
+    Và ngày sau vẫn thế<br>
+    Nỗi khát vọng tình yêu<br>
+    Bồi hồi trong ngực trẻ.
+  </p>
+</body>
+</html>

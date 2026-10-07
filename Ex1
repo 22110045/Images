@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 1 - Heading Hierarchy</title>
+</head>
+<body>
+  <h1>Đại học Khoa học-Tự nhiên</h1>
+  <h2>Khoa Công nghệ Thông tin</h2>
+  <h3>Bộ môn Thiết kế Web</h3>
+  <h4>Chương 1: Tổng quan về HTML</h4>
+  <h5>1.1 Cấu trúc thẻ HTML</h5>
+  <h6>Ghi chú: Thẻ heading dùng để phân cấp nội dung, không dùng để chỉnh cỡ chữ.</h6>
+</body>
+</html>

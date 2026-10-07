@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chill Coffee - Cửa hàng cà phê nguyên chất và bánh ngọt tĩnh demo cho WD-Lab01">
+  <title>Chill Coffee Store - Cửa Hàng Cà Phê Demo</title>
+</head>
+<body>
+
+  <!-- 1. HEADER & NAVIGATION -->
+  <header>
+    <h1>CHILL COFFEE STORE</h1>
+    <p>Cà Phê Nguyên Chất & Bánh Ngọt Tươi Mỗi Ngày</p>
+
+    <!-- Navigation bằng fragment link #id -->
+    <nav>
+      <a href="#home">Trang Chủ</a> |
+      <a href="#products">Sản Phẩm</a> |
+      <a href="#offers">Ưu Đãi</a> |
+      <a href="#order">Đặt Hàng</a> |
+      <a href="#contact">Liên Hệ</a>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+    <!-- 2. HOME SECTION -->
+    <section id="home">
+      <h2>Chào Mừng Đến Với Chill Coffee</h2>
+
+      <figure>
+        <img src="logo.jpg"Không gian quán Chill Coffee ấm cúng" alt="Không gian quán Chill Coffee ấm cúng" width="600">
+        <figcaption>Hình 1: Không gian thưởng thức cà phê yên tĩnh và ấm cúng.</figcaption>
+      </figure>
+
+      <p>
+        Chill Coffee là thương hiệu cà phê mộc được làm từ những hạt cà phê Robusta và Arabica chọn lọc từ Đắk Lắk và Đà Lạt. Chúng tôi mang đến hương vị đậm đà, thơm ngon chuẩn vị cho mỗi buổi sáng của bạn.
+      </p>
+      <p>
+        Trang web này là phiên bản <strong>HTML tĩnh</strong> dành riêng cho bài tập WD-Lab01, minh họa cách tổ chức danh mục sản phẩm, bảng giá và mẫu đặt hàng.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- 3. PRODUCTS SECTION -->
+    <section id="products">
+      <h2>Sản Phẩm Nổi Bật</h2>
+
+      <!-- Sản phẩm 1 -->
+      <article>
+        <h3>1. Cà Phê Espresso Đậm Đà</h3>
+        <figure>
+          <img src="espresso.jpg" alt="Tách cà phê Espresso nóng" width="300">
+          <figcaption>Espresso pha máy từ hạt Arabica nguyên chất.</figcaption>
+        </figure>
+        <p>
+          Mã sản phẩm: <strong>CF01</strong><br>
+          Giá bán: <strong>4000 VNĐ</strong><br>
+          Trạng thái: Còn hàng
+        </p>
+        <p>
+          Espresso được chiết xuất dưới áp suất cao, mang lại lớp cream mịn màng và hương vị đậm đà lôi cuốn.
+        </p>
+        <a href="#order">Đặt mua sản phẩm này</a>
+      </article>
+
+      <hr>
+
+      <!-- Sản phẩm 2 -->
+      <article>
+        <h3>2. Cà Phê Cold Brew Cam Sả</h3>
+        <figure>
+          <img src="coldbrew.jpg" alt="Ly cà phê Cold Brew Cam Sả mát lạnh" width="300">
+          <figcaption>Cold Brew ủ lạnh 16 tiếng kết hợp vị cam sả tươi mát.</figcaption>
+        </figure>
+        <p>
+          Mã sản phẩm: <strong>CF02</strong><br>
+          Giá bán: <strong>45,000 VNĐ</strong><br>
+          Trạng thái: Còn hàng
+        </p>
+        <p>
+          Cà phê ủ lạnh thanh mát, ít chua, kết hợp với hương cam vàng sảng khoái cho ngày hè oi bóc.
+        </p>
+        <a href="#order">Đặt mua sản phẩm này</a>
+      </article>
+
+      <hr>
+
+      <!-- Sản phẩm 3 -->
+      <article>
+        <h3>3. Bánh Croissant</h3>
+        <figure>
+          <img src="crossaint.jpg" 
+          <figcaption>Bánh sừng bò nướng bơ Pháp thơm giòn.</figcaption>
+        </figure>
+        <p>
+          Mã sản phẩm: <strong>BK01</strong><br>
+          Giá bán: <strong>30,000 VNĐ</strong><br>
+          Trạng thái: Số lượng có hạn
+        </p>
+        <p>
+          Bánh sừng bò được làm thủ công mỗi ngày, vỏ bánh nhiều lớp giòn rụm kết hợp hoàn hảo cùng cà phê nóng.
+        </p>
+        <a href="#order">Đặt mua sản phẩm này</a>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- 4. OFFERS & PRICE TABLE SECTION -->
+    <section id="offers">
+      <h2>Khuyến Mãi & Bảng Giá Chi Tiết</h2>
+
+      <ul>
+        <li>Freeship cho đơn hàng từ 150,000 VNĐ trong bán kính 3km.</li>
+        <li>Giảm 10% cho sinh viên khi mang theo thẻ sinh viên trực tiếp tại quán.</li>
+        <li>Combo Sáng: 1 Espresso + 1 Croissant chỉ với 60,000Đ.</li>
+      </ul>
+
+      <h3>Bảng Tóm Tắt Giá Sản Phẩm</h3>
+
+      <!-- Bảng giá chuẩn parent-child: table -> thead/tbody -> tr -> th/td -->
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Tên Sản Phẩm</th>
+            <th>Mã SP</th>
+            <th>Giá Tiền</th>
+            <th>Tình Trạng</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cà Phê Espresso</td>
+            <td>CF01</td>
+            <td>35,000 VNĐ</td>
+            <td>Còn hàng</td>
+          </tr>
+          <tr>
+            <td>Cà Phê Cold Brew Cam Sả</td>
+            <td>CF02</td>
+            <td>45,000 VNĐ</td>
+            <td>Còn hàng</td>
+          </tr>
+          <tr>
+            <td>Bánh Croissant Bơ</td>
+            <td>BK01</td>
+            <td>30,000 VNĐ</td>
+            <td>Còn hàng</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- 5. ORDER FORM SECTION -->
+    <section id="order">
+      <h2>Mẫu Đặt Hàng Tĩnh (Order Request)</h2>
+      <p>Vui lòng điền thông tin bên dưới để gửi yêu cầu đặt hàng thử nghiệm:</p>
+
+      <!-- Form tĩnh với các thẻ label for khớp input id -->
+      <form action="#" method="get">
+        <p>
+          <label for="customer-name">Họ và Tên Khách Hàng:</label><br>
+          <input type="text" id="customer-name" name="customer-name">
+        </p>
+
+        <p>
+          <label for="customer-phone">Số Điện Thoại:</label><br>
+          <input type="tel" id="customer-phone" name="customer-phone">
+        </p>
+
+        <p>
+          <label for="product-code">Mã Sản Phẩm Mua:</label><br>
+          <input type="text" id="product-code" name="product-code">
+        </p>
+
+        <p>
+          <label for="quantity">Số Lượng:</label><br>
+          <input type="number" id="quantity" name="quantity" min="1" value="1">
+        </p>
+
+        <p>
+          <label for="note">Ghi Chú Đơn Hàng (Ít đường, ít đá...):</label><br>
+          <textarea id="note" name="note" rows="3" cols="30"></textarea>
+        </p>
+
+        <button type="submit">Gửi Yêu Cầu Đặt Hàng</button>
+      </form>
+
+      <p><em>Ghi chú: Đây là biểu mẫu HTML tĩnh minh họa cấu trúc, chưa xử lý gửi dữ liệu backend.</em></p>
+    </section>
+
+    <hr>
+
+    <!-- 6. CONTACT SECTION -->
+    <section id="contact">
+      <h2>Thông Tin Liên Hệ Quán</h2>
+      <p>
+        <strong>Chill Coffee Store</strong><br>
+        Địa chỉ: 123 Đường Nguyễn Văn Cừ, Quận 5, TP.Hồ Chí Minh<br>
+        Điện thoại: <a href="tel:+842812345678">(028) 1234 5678</a><br>
+        Email: <a href="mailto:contact@chillcoffee.demo">contact@chillcoffee.demo</a>
+      </p>
+    </section>
+  </main>
+
+  <hr>
+
+  <!-- 7. FOOTER -->
+  <footer>
+    <p>© 2026 Chill Coffee Store - Bài làm Bài tập về nhà WD-Lab01</p>
+    <p>Trang web mô phỏng E-commerce bằng HTML thuần.</p>
+  </footer>
+
+</body>
+</html>
